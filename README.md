@@ -8,6 +8,7 @@ Uses Ubuntu Xenial
 
 ```
 docker build -t portusnetwork/fpm:ubuntu18.04 deb
+docker push portusnetwork/fpm:ubuntu18.04
 ```
 
 ## RPM packages
@@ -16,6 +17,7 @@ Uses CentOS 7
 
 ```
 docker build -t portusnetwork/fpm:centos-7 rpm
+docker push portusnetwork/fpm:centos-7
 ```
 
 ## Custom Linux distributions

@@ -16,8 +16,8 @@ docker push portusnetwork/fpm:ubuntu18.04
 Uses CentOS 7
 
 ```
-docker build -t portusnetwork/fpm:centos-7 rpm
-docker push portusnetwork/fpm:centos-7
+docker build -t portusnetwork/fpm:centos-8 rpm
+docker push portusnetwork/fpm:centos-8
 ```
 
 ## Custom Linux distributions

@@ -7,7 +7,7 @@ Use it from the [Docker Hub](http://hub.docker.com/r/portusnetwork/fpm).
 Uses Ubuntu Xenial
 
 ```
-docker build -t fpm:deb deb
+docker build -t portusnetwork/fpm:ubuntu18.04 deb
 ```
 
 ## RPM packages
@@ -15,7 +15,7 @@ docker build -t fpm:deb deb
 Uses CentOS 7
 
 ```
-docker build -t fpm:rpm rpm
+docker build -t portusnetwork/fpm:centos-7 rpm
 ```
 
 ## Custom Linux distributions
